@@ -327,3 +327,158 @@ padding-top: 133px;
 }
 /* /Offers */
 
+/* Why choose us */
+.choose{
+    padding-bottom: 100px;
+}
+.choose .section-sup__title{
+    text-align: center;
+    color:var(--darkBrown);
+}
+.choose__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.choose__card{
+    display: flex;
+    align-items: center;
+    width: 540px;
+    padding: 25px 30px;
+    background-color: #F9F9F9;
+    box-shadow: 0px 2px 24px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    margin-top: 56px;
+}
+.choose__card__img{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-image: linear-gradient(274.27deg, rgba(255, 255, 255, 0) -14.6%, rgba(255, 255, 255, 0.39) 39.52%, rgba(255, 255, 255, 0) 110.6%), linear-gradient(263.81deg, #FFC771 10.32%, #FFC858 98.17%);
+    box-shadow: inset 0px 1.75px 13.125px rgba(255, 255, 255, 0.41), inset 16.625px 0px 21.875px rgba(255, 255, 255, 0.11);
+    border-radius: 50%;
+}
+.choose__card__info{
+    display:inline-block;
+    margin-left: 25px;
+    width: 335px;
+    color:var(--darkBrown);
+}
+.choose__card__title{
+    font: 700 23px/28px var(--gilroy);
+}
+.choose__card__text{
+    font: 400 20px/24px var(--gilroy);
+}
+.choose__card__text__changiable{
+    font-size: 19px;
+}
+.choose__card:nth-child(2),
+.choose__card:nth-child(4),
+.choose__card:nth-child(6){
+    margin-left: 80px;
+}
+.choose__card:nth-child(3),
+.choose__card:nth-child(4),
+.choose__card:nth-child(5),
+.choose__card:nth-child(6){
+    margin-top: 50px;
+}
+.btn__choose .btn__call{
+    margin-top: 60px;
+}
+
+/*/ Why choose us */
+/* Return call */
+.return{
+    background-image: url('../Images/big__team.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 814px;
+    padding-top: 14px;
+}
+.return__inner{
+    display: flex;
+    justify-content:center;
+}
+.return__info{
+    padding-top: 30px;
+    width: 413px;
+    color: var(--darkBrown);
+}
+.return__info__title{
+    font: 700 30px/37px var(--gilroy);
+}
+.return__gold{
+    color: var(--spanBrown);
+}
+.return__lists{
+    margin-top: 20px;
+}
+.return__list__text{
+    margin-bottom: 13px;
+}
+.return__list__text,
+.return__list__item{
+    font: 400 20px/24px var(--gilroy);
+    list-style-type: none;
+}
+.return__list__item__changiable{
+    margin-left:25px;
+}
+.gold__circle{
+    display:inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--spanBrown);
+    vertical-align:top;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.return__call{
+    width: 400px;
+    padding: 32px 30px 59px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 207px;
+}
+.return__call__title{
+    font: 700 28px/35px var(--gilroy);
+    color: var(--darkBrown);
+}
+.return__call__text{
+    font: 400 15px/18px var(--gilroy);
+    margin-top: 9px;
+    color: #373737;
+}
+.return__call input{
+    font: 400 15px/18px var(--gilroy);
+    width: 317px;
+    padding-bottom: 32px;
+    margin-top: 36px;
+    outline: none;
+    color: #A8A8A8;
+    border: 1px solid transparent;
+    border-bottom-color: #D9D9D9;
+}
+.return__call button{
+    width: 320px;
+    background: none;
+    outline: none;
+    border: none;
+
+}
+.return__call button .btn__call{
+    padding: 32px 30px 23px 30px;
+    height: 78px;
+    width: 320px;
+    color:#835D13;
+    margin: 0;
+    margin-top:54px;
+}
+
+/* /Return call */
+
+
