@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Css styles -->
     <link rel="stylesheet" href="./css/styles.css">
+
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
     <title>Interyer Design</title>
 </head>
 <body>
@@ -74,7 +79,7 @@
                   </p>
               </div>
               <div class="hero__cards">
-                  <article class="hero__card liquid">
+                  <article class="hero__card">
                       <h3 class="hero__card--title">
                         Ресторан Ямал
                       </h3>
@@ -96,7 +101,7 @@
                         Подробнее
                       </a>
                   </article>
-                  <article class="hero__card liquid liquid2">
+                  <article class="hero__card">
                       <h3 class="hero__card--title">
                         Ресторан Ямал
                       </h3>
@@ -107,7 +112,7 @@
                         Подробнее
                       </a>
                   </article>
-                  <article class="hero__card liquid2">
+                  <article class="hero__card">
                       <h3 class="hero__card--title">
                         Ресторан Ямал
                       </h3>
@@ -343,6 +348,7 @@
 
         <!-- Return call -->
         <section class="return">
+          <img class="sub__bg__top " src="./Images/sub__bg.png" alt="sub__bg">
           <div class="container">
             <div class="return__inner">
               <div class="return__info">
@@ -376,16 +382,234 @@
                 </p>
                 <input type="text" id="name" name="Name" placeholder="Ваше имя"> 
                 <input type="number" id="number" name="phoneNumber" placeholder="Телефон">
-                <button type="submit">
-                  <a href="#" class="btn__call">
+                <button type="submit"class="btn__return">
                     ЗАКАЗАТЬ БЕСПЛАТНЫЙ ЗАМЕР
-                  </a>
                 </button>
               </form>
             </div>
+            <div class="return__bottom__img">
+              <img src="./Images/Surveyor Auto Level.H03 1.png" alt="Surveyor Auto Level.H03 1" class="return__positioned__img">
+            </div>
           </div>
+          <img class="sub__bg" src="./Images/return__botomm.png" alt="sub__bg">
         </section>
         <!-- /Return call -->
 
+        <!-- Steps -->
+        <section class="steps">
+          <div class="container">
+            <h2 class="section-sup__title">
+             <span class="gold"> 5 шагов</span> до ремонта вашей мечты
+            </h2>
+            <div class="steps__inner">
+            <div class="steps__inner--2">
+              <atricle class="steps__card">
+                <div class="steps__number">
+                  <span class="steps__number--digit">
+                    1
+                  </span>
+                </div>
+                <div class="steps__card__info">
+                  <h4 class="steps__card__title">Заявка</h4>
+                  <p class="steps__card__text">
+                    Вы оставляете заявку на сайте или по телефону. Мы<br>
+                    договариваемся о встрече для точного замера и расчета стоимости
+                  </p>
+                </div>
+              </atricle>
+              <atricle class="steps__card">
+                <div class="steps__number">
+                  <span class="steps__number--digit">
+                    2
+                  </span>
+                </div>
+                <div class="steps__card__info">
+                  <h4 class="steps__card__title">Замер</h4>
+                  <p class="steps__card__text">
+                    Мы выезжаем на объект, делаем<br>
+                    все необходимые замеры
+                  </p>
+                </div>
+              </atricle>
+              <atricle class="steps__card">
+                <div class="steps__number">
+                  <span class="steps__number--digit">
+                    3
+                  </span>
+                </div>
+                <div class="steps__card__info">
+                  <h4 class="steps__card__title">Смета, договор</h4>
+                  <p class="steps__card__text">
+                    Состовляем точную смету, сроки,<br>
+                    а также график платежей
+                  </p>
+                </div>
+              </atricle>
+              <atricle class="steps__card">
+                <div class="steps__number">
+                  <span class="steps__number--digit">
+                    4
+                  </span>
+                </div>
+                <div class="steps__card__info">
+                  <h4 class="steps__card__title">Передача ключей</h4>
+                  <p class="steps__card__text">
+                    После подписания договора вы передаете<br>
+                    нам ключи, мы приступаем к работе
+                  </p>
+                </div>
+              </atricle>
+              <atricle class="steps__card">
+                <div class="steps__number">
+                  <span class="steps__number--digit">
+                    5
+                  </span>
+                </div>
+                <div class="steps__card__info">
+                  <h4 class="steps__card__title">Ремонт</h4>
+                  <p class="steps__card__text">
+                    Делаем качественный ремонт, утверждая<br>
+                    с вами каждый этап работ
+                  </p>
+                </div>
+              </atricle>
+              <atricle class="steps__card">
+                <div class="steps__number">
+                  <span class="steps__number--digit">
+                    6
+                  </span>
+                </div>
+                <div class="steps__card__info">
+                  <h4 class="steps__card__title">Принимайте работу!</h4>
+                  <p class="steps__card__text">
+                    Принимайте работу! Получайте ваши<br>
+                     ключи, а также уют в вашем доме
+                  </p>
+                </div>
+              </atricle>
+            </div>
+            </div>
+            <div class="btn__header hero__btn btn__choose ">
+              <a href="#" class="btn__call">
+                получить консультацию
+              </a>
+            </div>
+            <div class="steps__finished__img">
+              <img src="./Images/Toolbox.H02 1.png" alt="Toolbox.H02 1" class="steps__positioned">
+            </div>
+          </div>
+        </section>
+        <!-- /Steps -->
+
+        <!-- Brands -->
+        <section class="brands">
+          <div class="container">
+           <div class="section-sup__info">
+            <h2 class="section-sup__title">
+              Используем только лучшие метериалы от <span class="gold">80+ </span>Мировых производителей
+             </h2>
+             <p class="section-sup__text">
+              Некоторые из них:
+             </p>
+           </div>
+           <div class="brands__img">
+            <img src="./Images/partners.png" alt="companies logos">
+           </div>
+           <div class="btn__header hero__btn btn__choose ">
+            <a href="#" class="btn__call">
+              ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+            </a>
+          </div>
+        </div>
+          </div>
+          <img src="./Images/Wheelbarrow.G11 1.png" alt="Wheelbarrow.G11" class="brands__positioned">
+          <img src="./Images/Paint Bucket Open.G04 1.png" alt="Paint Bucket Open.G04" class="brands__positioned">
+        </section>
+        <!-- /Brands -->
+
+        <!-- Motto -->
+        <section class="motto">
+          <div class="container">
+            <h2 class="section-sup__title">
+              Ремонт  с нами - <span class="gold">выгодно</span>
+            </h2>
+            <div class="motto__inner">
+              <div class="motto__info">
+                <p class="section-sup__text">
+                  Предоставляем гибкую систему оплаты ремонта, а также беспроцентную рассрочку через банки партнеры
+                </p>
+                <div class="btn__header hero__btn btn__choose btn__motto">
+                  <a href="#" class="btn__call">
+                    рассчитать стоимость
+                  </a>
+                </div>
+              </div>
+              <img src="./Images/wing__logo.png" alt="wing-logo">
+            </div>
+          </div>
+        </section>
+        <!-- /Motto -->
+
+        <!-- Clients  -->
+        <section class="clients">
+          <div class="container">
+            <h2 class="section-sup__title">
+              Отзывы наших клиентов
+            </h2>
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="clients__slider--img">
+                    <img src="./Images/users.png" alt="user">
+                    <div class="overlay">
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__slider--img">
+                    <img src="./Images/users.png" alt="user">
+                    <div class="overlay">
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__slider--img">
+                    <img src="./Images/users.png" alt="user">
+                    <div class="overlay">
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="clients__slider--img">
+                    <img src="./Images/users.png" alt="user">
+                    <div class="overlay">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev">
+                <img src="./Images/prev.png" alt="">
+              </div>
+              <div class="swiper-button-next">
+                <img class="next" src="./Images/next.png" alt="">
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /Clients -->
+
+        <!-- Questions -->
+        <section class="questions">
+          <div class="container">
+            <h2 class="section-sup__title">
+              Отзывы наших клиентов
+            </h2>
+          </div>
+        </section>
+        <!-- /Questions -->
+
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./app.js"></script>
 </body>
 </html>
