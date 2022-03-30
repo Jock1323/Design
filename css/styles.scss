@@ -722,7 +722,103 @@
 .swiper-button-prev::after{
     content: none !important;
 }
-
+//Questions
+.questions{
+    padding-bottom: 44px;
+    .line-black{
+        width: 85%;
+        margin: 0 auto;
+        height: 1px;
+        background-color: rgba(#1A1A1A,.3);
+    }
+    .section-sup__title{
+        color: $color-darkBrown;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .questions__inner__sub{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .questions__inner{
+        width: 610px;
+        padding-left:85px;
+        &__text{
+            font: 400 25px/30px $font-gilroy;
+            color:$color-darkBrown;
+            position: relative;
+        }
+        &__text:nth-child(2),
+        &__text:nth-child(3),
+        &__text:nth-child(4),
+        &__text:nth-child(5)
+        {
+            margin-top: 25px;
+        }
+        &__line{
+            padding-right: 85px;
+            .plus,
+            .lineblack{
+                display: block;
+                font: 400 35px/30px $font-gilroy;
+                color: rgba(#1A1A1A,.3);
+            }
+            .lineblack{
+                position:relative;
+                display: block;
+                margin-top: 25px;
+            }
+            .lineblack::before{
+                position:absolute;
+                right:0;
+                top: -12.5px;
+                content: "";
+                width: 350px;
+                height: 1px;
+                background-color: rgba(#1A1A1A,.3);
+            }
+        }
+    }
+}
+//Footer
+.footer__inner{
+    display: flex;
+    justify-content:space-between;
+    padding:51px 60px 57px 60px;
+    background-color: #fff;
+    box-shadow: -4px 4px 50px rgba(143, 143, 143, 0.25);
+    border-radius: 5px;
+}
+.footer__card{
+    &--title1{
+        color: $color-darkBrown;
+        font: 700 36px/40px $font-gilroy;
+        width: 251px;
+        
+    }
+    &--info{
+        width:251px;
+    }
+    &--title{
+    font-size:25px;
+    line-height: 40px;
+    margin-top: 23px;
+    }
+    &--title:nth-child(3){
+    font-size:25px;
+    line-height: 40px;
+    margin-top:33px;
+    }
+   .changiable-title{
+       margin-top: 46px;
+   }
+    &--link{
+        color:#5A5859;
+        font: 700 22px/40px $font-gilroy;
+        margin: 0;
+    }
+}
 
 
 
